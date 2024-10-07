@@ -7,7 +7,6 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 
 import { useEffect, useState } from "react";
 
-// Agrega los iconos a la biblioteca
 library.add(faTrash, faPen);
 
 const DataTable = ({ onSelectUser }) => {
